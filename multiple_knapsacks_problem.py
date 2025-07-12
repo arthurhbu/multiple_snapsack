@@ -55,7 +55,7 @@ def carregar_instancia_mkp(caminho_arquivo):
 
 def main():
     try:
-        num_alunos, num_salas, capacidades_salas, referencias_alunos, pesos, lucros = carregar_instancia_mkp('instancia_4.txt')
+        num_alunos, num_salas, capacidades_salas, referencias_alunos, pesos, lucros = carregar_instancia_mkp('instancia_6.txt')
 
         data = {}
         data["weights"] = pesos
@@ -76,23 +76,6 @@ def main():
         print(f"  - Capacidades: {capacidades_salas}")
         print(f"  - Referencia: {referencias_alunos}")
 
-
-        referencias_unicas = sorted(list(set(data["referencia_aluno"])))
-        print(f"  - Referências únicas encontradas nos alunos: {referencias_unicas}")
-
-
-        data["referencia_sala"] = [None]*data["num_bins"]
-
-        num_mapeamentos_possiveis = min(len(referencias_unicas), data["num_bins"])
-        for i in range(num_mapeamentos_possiveis):
-            data["referencia_sala"][i] = referencias_unicas[i]
-
-        print(f"  - Referências mapeadas para as {data['num_bins']} salas: {data['referencia_sala']}")
-
-        if len(referencias_unicas) != data["num_bins"]:
-            print("\nAVISO: O número de salas na instância não corresponde ao número de tipos de referência únicos.")
-            print(f"         Salas declaradas: {data['num_bins']}, Tipos de referência encontrados: {len(referencias_unicas)}")
-
         solver = pywraplp.Solver.CreateSolver('SCIP')
         if solver is None:
             print("Não foi possível criar o solver SCIP.")
@@ -103,15 +86,11 @@ def main():
             for b in data["all_bins"]:
                 x[i, b] = solver.BoolVar(f"x_{i}_{b}")
 
-        # Adiciona a restrição de compatibilidade CORRIGIDA E DINÂMICA
         for i in data["all_items"]:
-            for b in data["all_bins"]:
-                sala_ref = data["referencia_sala"][b]
-                aluno_ref = data["referencia_aluno"][i]
+            aluno_ref_destino = data["referencia_aluno"][i]
 
-                if sala_ref is None:
-                    solver.Add(x[i, b] == 0)
-                elif sala_ref != aluno_ref:
+            for b in data["all_bins"]:
+                if b != (aluno_ref_destino - 1):
                     solver.Add(x[i, b] == 0)
 
         # Restrição: Cada aluno é alocado a no máximo uma sala.
@@ -138,7 +117,6 @@ def main():
         if status == pywraplp.Solver.OPTIMAL:
             total_weight = 0
             for b in data["all_bins"]:
-                print(f"\n--- Sala {b} (Capacidade: {data['bin_capacities'][b]}, Referência: {data['referencia_sala'][b]}) ---")
                 bin_weight = 0
                 bin_value = 0
                 for i in data["all_items"]:
