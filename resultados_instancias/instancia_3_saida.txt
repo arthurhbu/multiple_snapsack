@@ -1,0 +1,50 @@
+Instância 'instancia_3' resolvida com SCIP:
+  - Número de Alunos: 100
+  - Número de Salas: 5
+_______________________________________________________________
+
+Solução ótima encontrada:
+  - Valor total otimizado: 762
+_______________________________________________________________
+
+Sala 1 (Capacidade: 5):
+  - Aluno 0 (Valor: 55, Ref: 1)
+  Total de alunos na sala: 1
+  Valor total da sala: 55
+_______________________________________________________________
+
+Sala 2 (Capacidade: 8):
+  - Aluno 1 (Valor: 69, Ref: 2)
+  - Aluno 2 (Valor: 87, Ref: 2)
+  - Aluno 4 (Valor: 69, Ref: 2)
+  - Aluno 5 (Valor: 69, Ref: 2)
+  - Aluno 24 (Valor: 69, Ref: 2)
+  - Aluno 27 (Valor: 69, Ref: 2)
+  - Aluno 28 (Valor: 69, Ref: 2)
+  - Aluno 54 (Valor: 83, Ref: 2)
+  Total de alunos na sala: 8
+  Valor total da sala: 584
+_______________________________________________________________
+
+Sala 3 (Capacidade: 1):
+  - Aluno 74 (Valor: 97, Ref: 3)
+  Total de alunos na sala: 1
+  Valor total da sala: 97
+_______________________________________________________________
+
+Sala 4 (Capacidade: 12):
+  - Aluno 97 (Valor: 9, Ref: 4)
+  - Aluno 98 (Valor: 8, Ref: 4)
+  - Aluno 99 (Valor: 9, Ref: 4)
+  Total de alunos na sala: 3
+  Valor total da sala: 26
+_______________________________________________________________
+
+Sala 5 (Capacidade: 12):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Resumo Final:
+  - Total de alunos alocados: 13
+  - Total de alunos não alocados: 87

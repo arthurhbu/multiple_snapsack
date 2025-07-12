@@ -1,0 +1,77 @@
+Instância 'instancia_4' resolvida com SCIP:
+  - Número de Alunos: 120
+  - Número de Salas: 7
+_______________________________________________________________
+
+Solução ótima encontrada:
+  - Valor total otimizado: 1677
+_______________________________________________________________
+
+Sala 1 (Capacidade: 5):
+  - Aluno 0 (Valor: 55, Ref: 1)
+  Total de alunos na sala: 1
+  Valor total da sala: 55
+_______________________________________________________________
+
+Sala 2 (Capacidade: 8):
+  - Aluno 1 (Valor: 69, Ref: 2)
+  - Aluno 2 (Valor: 87, Ref: 2)
+  - Aluno 4 (Valor: 69, Ref: 2)
+  - Aluno 5 (Valor: 69, Ref: 2)
+  - Aluno 24 (Valor: 69, Ref: 2)
+  - Aluno 27 (Valor: 69, Ref: 2)
+  - Aluno 28 (Valor: 69, Ref: 2)
+  - Aluno 54 (Valor: 83, Ref: 2)
+  Total de alunos na sala: 8
+  Valor total da sala: 584
+_______________________________________________________________
+
+Sala 3 (Capacidade: 1):
+  - Aluno 74 (Valor: 97, Ref: 3)
+  Total de alunos na sala: 1
+  Valor total da sala: 97
+_______________________________________________________________
+
+Sala 4 (Capacidade: 12):
+  - Aluno 97 (Valor: 9, Ref: 4)
+  - Aluno 98 (Valor: 8, Ref: 4)
+  - Aluno 99 (Valor: 9, Ref: 4)
+  - Aluno 100 (Valor: 54, Ref: 4)
+  - Aluno 101 (Valor: 55, Ref: 4)
+  - Aluno 102 (Valor: 55, Ref: 4)
+  Total de alunos na sala: 6
+  Valor total da sala: 190
+_______________________________________________________________
+
+Sala 5 (Capacidade: 3):
+  - Aluno 104 (Valor: 83, Ref: 5)
+  - Aluno 105 (Valor: 68, Ref: 5)
+  - Aluno 108 (Valor: 69, Ref: 5)
+  Total de alunos na sala: 3
+  Valor total da sala: 220
+_______________________________________________________________
+
+Sala 6 (Capacidade: 9):
+  - Aluno 109 (Valor: 55, Ref: 6)
+  - Aluno 110 (Valor: 55, Ref: 6)
+  - Aluno 111 (Valor: 55, Ref: 6)
+  - Aluno 112 (Valor: 37, Ref: 6)
+  - Aluno 113 (Valor: 83, Ref: 6)
+  Total de alunos na sala: 5
+  Valor total da sala: 285
+_______________________________________________________________
+
+Sala 7 (Capacidade: 7):
+  - Aluno 114 (Valor: 55, Ref: 7)
+  - Aluno 115 (Valor: 36, Ref: 7)
+  - Aluno 116 (Valor: 9, Ref: 7)
+  - Aluno 117 (Valor: 83, Ref: 7)
+  - Aluno 118 (Valor: 8, Ref: 7)
+  - Aluno 119 (Valor: 55, Ref: 7)
+  Total de alunos na sala: 6
+  Valor total da sala: 246
+_______________________________________________________________
+
+Resumo Final:
+  - Total de alunos alocados: 30
+  - Total de alunos não alocados: 90

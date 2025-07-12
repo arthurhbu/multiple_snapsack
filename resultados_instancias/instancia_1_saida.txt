@@ -1,0 +1,22 @@
+Instância 'instancia_1' resolvida com SCIP:
+  - Número de Alunos: 10
+  - Número de Salas: 1
+_______________________________________________________________
+
+Solução ótima encontrada:
+  - Valor total otimizado: 363
+_______________________________________________________________
+
+Sala 1 (Capacidade: 5):
+  - Aluno 1 (Valor: 69, Ref: 1)
+  - Aluno 2 (Valor: 87, Ref: 1)
+  - Aluno 4 (Valor: 69, Ref: 1)
+  - Aluno 5 (Valor: 69, Ref: 1)
+  - Aluno 9 (Valor: 69, Ref: 1)
+  Total de alunos na sala: 5
+  Valor total da sala: 363
+_______________________________________________________________
+
+Resumo Final:
+  - Total de alunos alocados: 5
+  - Total de alunos não alocados: 5

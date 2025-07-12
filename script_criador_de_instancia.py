@@ -40,27 +40,12 @@ def parse_dat_file(filename):
             dados[nome] = bloco
         # Detecta início de bloco de parâmetro
 
-
         elif line.startswith('set v:'):
             nome = line.split()[1].replace(':=', '')
             line = line.replace('set v:=', '').strip()
             line = line.replace(';', '')
             bloco = [valor.strip() for valor in line.split() if valor.strip()]
             dados[nome] = bloco
-
-
-        # elif line.startswith('param:'):
-        #     nome = line.split(':')[1].split(':=')[0].strip()
-        #     bloco = []
-        #     i += 1
-        #     while i < len(lines) and ';' not in lines[i]:
-        #         bloco.append(lines[i].strip())
-        #         i += 1
-        #     # Pega a última linha (com ;)
-        #     if i < len(lines):
-        #         bloco.append(lines[i].replace(';', '').strip())
-        #     dados[nome] = bloco
-
 
         elif line.startswith('param:'):
             nome = line.split(':')[1].split(':')[0].strip()
@@ -81,21 +66,6 @@ def parse_dat_file(filename):
         i += 1
     return dados
 
-# def create_dict_from_dat(filename):
-#     dados = {}
-#     with open(filename, 'r', encoding='utf-8') as file:
-#         lines = file.readlines()
-
-#     i = 0
-#     while i < len(lines):
-#         line = lines[i].strip()
-#         if line.startswith('#'):
-#             i += 1
-#             continue
-#         if line.startswith('set a:'):
-#             nome = line.split()[1].replace(':=', '')
-#             bloco = []
-#             i += 1
 
 def create_instance(dados):
     with open('instancia_criada_6.txt', 'w', encoding='utf-8') as file:
@@ -115,12 +85,9 @@ def create_instance(dados):
             file.write('\n')
     return
     
-
 dados = parse_dat_file('instancia_6.dat')
 create_instance(dados)
 
-# print(dados.keys())  
-# print(dados['vagas'])
 
 
 
@@ -129,7 +96,4 @@ len(v)
 todas as vagas
 len(a)
 peso | pontos | referencia_aluno
-
-
-
 '''

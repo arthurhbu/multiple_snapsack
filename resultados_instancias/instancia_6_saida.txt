@@ -1,0 +1,550 @@
+Instância 'instancia_6' resolvida com SCIP:
+  - Número de Alunos: 1127
+  - Número de Salas: 71
+_______________________________________________________________
+
+Solução ótima encontrada:
+  - Valor total otimizado: 12334
+_______________________________________________________________
+
+Sala 1 (Capacidade: 5):
+  - Aluno 0 (Valor: 55, Ref: 1)
+  Total de alunos na sala: 1
+  Valor total da sala: 55
+_______________________________________________________________
+
+Sala 2 (Capacidade: 8):
+  - Aluno 1 (Valor: 69, Ref: 2)
+  - Aluno 2 (Valor: 87, Ref: 2)
+  - Aluno 4 (Valor: 69, Ref: 2)
+  - Aluno 5 (Valor: 69, Ref: 2)
+  - Aluno 24 (Valor: 69, Ref: 2)
+  - Aluno 27 (Valor: 69, Ref: 2)
+  - Aluno 28 (Valor: 69, Ref: 2)
+  - Aluno 54 (Valor: 83, Ref: 2)
+  Total de alunos na sala: 8
+  Valor total da sala: 584
+_______________________________________________________________
+
+Sala 3 (Capacidade: 1):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 4 (Capacidade: 12):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 5 (Capacidade: 3):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 6 (Capacidade: 9):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 7 (Capacidade: 7):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 8 (Capacidade: 9):
+  - Aluno 62 (Valor: 55, Ref: 8)
+  - Aluno 63 (Valor: 55, Ref: 8)
+  - Aluno 64 (Valor: 55, Ref: 8)
+  - Aluno 69 (Valor: 83, Ref: 8)
+  - Aluno 74 (Valor: 97, Ref: 8)
+  - Aluno 76 (Valor: 83, Ref: 8)
+  - Aluno 82 (Valor: 83, Ref: 8)
+  - Aluno 83 (Valor: 69, Ref: 8)
+  - Aluno 84 (Valor: 69, Ref: 8)
+  Total de alunos na sala: 9
+  Valor total da sala: 649
+_______________________________________________________________
+
+Sala 9 (Capacidade: 10):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 10 (Capacidade: 10):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 11 (Capacidade: 3):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 12 (Capacidade: 4):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 13 (Capacidade: 1):
+  - Aluno 100 (Valor: 54, Ref: 13)
+  Total de alunos na sala: 1
+  Valor total da sala: 54
+_______________________________________________________________
+
+Sala 14 (Capacidade: 16):
+  - Aluno 104 (Valor: 83, Ref: 14)
+  - Aluno 105 (Valor: 68, Ref: 14)
+  - Aluno 108 (Valor: 69, Ref: 14)
+  - Aluno 113 (Valor: 83, Ref: 14)
+  - Aluno 114 (Valor: 55, Ref: 14)
+  - Aluno 117 (Valor: 83, Ref: 14)
+  - Aluno 130 (Valor: 68, Ref: 14)
+  - Aluno 134 (Valor: 68, Ref: 14)
+  - Aluno 147 (Valor: 83, Ref: 14)
+  - Aluno 154 (Valor: 69, Ref: 14)
+  - Aluno 158 (Valor: 69, Ref: 14)
+  - Aluno 159 (Valor: 83, Ref: 14)
+  - Aluno 160 (Valor: 83, Ref: 14)
+  - Aluno 167 (Valor: 69, Ref: 14)
+  - Aluno 172 (Valor: 55, Ref: 14)
+  - Aluno 173 (Valor: 55, Ref: 14)
+  Total de alunos na sala: 16
+  Valor total da sala: 1143
+_______________________________________________________________
+
+Sala 15 (Capacidade: 23):
+  - Aluno 174 (Valor: 69, Ref: 15)
+  - Aluno 175 (Valor: 55, Ref: 15)
+  - Aluno 176 (Valor: 55, Ref: 15)
+  - Aluno 177 (Valor: 55, Ref: 15)
+  - Aluno 178 (Valor: 55, Ref: 15)
+  - Aluno 179 (Valor: 55, Ref: 15)
+  - Aluno 180 (Valor: 55, Ref: 15)
+  - Aluno 181 (Valor: 59, Ref: 15)
+  - Aluno 182 (Valor: 55, Ref: 15)
+  - Aluno 183 (Valor: 55, Ref: 15)
+  - Aluno 184 (Valor: 55, Ref: 15)
+  - Aluno 185 (Valor: 55, Ref: 15)
+  - Aluno 186 (Valor: 55, Ref: 15)
+  - Aluno 187 (Valor: 55, Ref: 15)
+  - Aluno 188 (Valor: 68, Ref: 15)
+  Total de alunos na sala: 15
+  Valor total da sala: 856
+_______________________________________________________________
+
+Sala 16 (Capacidade: 5):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 17 (Capacidade: 16):
+  - Aluno 189 (Valor: 8, Ref: 17)
+  - Aluno 190 (Valor: 8, Ref: 17)
+  - Aluno 191 (Valor: 53, Ref: 17)
+  - Aluno 192 (Valor: 9, Ref: 17)
+  - Aluno 193 (Valor: 53, Ref: 17)
+  - Aluno 194 (Valor: 55, Ref: 17)
+  Total de alunos na sala: 6
+  Valor total da sala: 186
+_______________________________________________________________
+
+Sala 18 (Capacidade: 5):
+  - Aluno 201 (Valor: 83, Ref: 18)
+  - Aluno 225 (Valor: 83, Ref: 18)
+  - Aluno 231 (Valor: 82, Ref: 18)
+  - Aluno 254 (Valor: 82, Ref: 18)
+  - Aluno 266 (Valor: 59, Ref: 18)
+  Total de alunos na sala: 5
+  Valor total da sala: 389
+_______________________________________________________________
+
+Sala 19 (Capacidade: 27):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 20 (Capacidade: 8):
+  - Aluno 282 (Valor: 83, Ref: 20)
+  - Aluno 283 (Valor: 83, Ref: 20)
+  - Aluno 285 (Valor: 87, Ref: 20)
+  - Aluno 288 (Valor: 83, Ref: 20)
+  - Aluno 321 (Valor: 69, Ref: 20)
+  - Aluno 327 (Valor: 69, Ref: 20)
+  - Aluno 330 (Valor: 83, Ref: 20)
+  - Aluno 333 (Valor: 69, Ref: 20)
+  Total de alunos na sala: 8
+  Valor total da sala: 626
+_______________________________________________________________
+
+Sala 21 (Capacidade: 2):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 22 (Capacidade: 10):
+  - Aluno 335 (Valor: 83, Ref: 22)
+  - Aluno 340 (Valor: 83, Ref: 22)
+  - Aluno 341 (Valor: 55, Ref: 22)
+  - Aluno 342 (Valor: 55, Ref: 22)
+  - Aluno 343 (Valor: 83, Ref: 22)
+  - Aluno 344 (Valor: 55, Ref: 22)
+  - Aluno 349 (Valor: 83, Ref: 22)
+  - Aluno 354 (Valor: 83, Ref: 22)
+  - Aluno 368 (Valor: 83, Ref: 22)
+  - Aluno 373 (Valor: 83, Ref: 22)
+  Total de alunos na sala: 10
+  Valor total da sala: 746
+_______________________________________________________________
+
+Sala 23 (Capacidade: 14):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 24 (Capacidade: 30):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 25 (Capacidade: 12):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 26 (Capacidade: 13):
+  - Aluno 375 (Valor: 55, Ref: 26)
+  - Aluno 376 (Valor: 59, Ref: 26)
+  - Aluno 377 (Valor: 55, Ref: 26)
+  - Aluno 378 (Valor: 55, Ref: 26)
+  - Aluno 379 (Valor: 55, Ref: 26)
+  Total de alunos na sala: 5
+  Valor total da sala: 279
+_______________________________________________________________
+
+Sala 27 (Capacidade: 6):
+  - Aluno 380 (Valor: 69, Ref: 27)
+  - Aluno 381 (Valor: 83, Ref: 27)
+  - Aluno 382 (Valor: 69, Ref: 27)
+  Total de alunos na sala: 3
+  Valor total da sala: 221
+_______________________________________________________________
+
+Sala 28 (Capacidade: 4):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 29 (Capacidade: 5):
+  - Aluno 391 (Valor: 83, Ref: 29)
+  - Aluno 412 (Valor: 83, Ref: 29)
+  - Aluno 447 (Valor: 83, Ref: 29)
+  - Aluno 449 (Valor: 83, Ref: 29)
+  - Aluno 453 (Valor: 83, Ref: 29)
+  Total de alunos na sala: 5
+  Valor total da sala: 415
+_______________________________________________________________
+
+Sala 30 (Capacidade: 4):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 31 (Capacidade: 9):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 32 (Capacidade: 5):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 33 (Capacidade: 3):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 34 (Capacidade: 6):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 35 (Capacidade: 3):
+  - Aluno 506 (Valor: 97, Ref: 35)
+  - Aluno 643 (Valor: 97, Ref: 35)
+  - Aluno 653 (Valor: 97, Ref: 35)
+  Total de alunos na sala: 3
+  Valor total da sala: 291
+_______________________________________________________________
+
+Sala 36 (Capacidade: 22):
+  - Aluno 656 (Valor: 55, Ref: 36)
+  - Aluno 657 (Valor: 54, Ref: 36)
+  - Aluno 658 (Valor: 55, Ref: 36)
+  - Aluno 659 (Valor: 55, Ref: 36)
+  - Aluno 660 (Valor: 55, Ref: 36)
+  - Aluno 661 (Valor: 54, Ref: 36)
+  Total de alunos na sala: 6
+  Valor total da sala: 328
+_______________________________________________________________
+
+Sala 37 (Capacidade: 5):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 38 (Capacidade: 4):
+  - Aluno 668 (Valor: 83, Ref: 38)
+  - Aluno 669 (Valor: 83, Ref: 38)
+  - Aluno 677 (Valor: 83, Ref: 38)
+  - Aluno 681 (Valor: 83, Ref: 38)
+  Total de alunos na sala: 4
+  Valor total da sala: 332
+_______________________________________________________________
+
+Sala 39 (Capacidade: 7):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 40 (Capacidade: 2):
+  - Aluno 701 (Valor: 97, Ref: 40)
+  - Aluno 702 (Valor: 83, Ref: 40)
+  Total de alunos na sala: 2
+  Valor total da sala: 180
+_______________________________________________________________
+
+Sala 41 (Capacidade: 7):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 42 (Capacidade: 8):
+  - Aluno 708 (Valor: 69, Ref: 42)
+  - Aluno 709 (Valor: 69, Ref: 42)
+  Total de alunos na sala: 2
+  Valor total da sala: 138
+_______________________________________________________________
+
+Sala 43 (Capacidade: 17):
+  - Aluno 710 (Valor: 55, Ref: 43)
+  - Aluno 711 (Valor: 55, Ref: 43)
+  Total de alunos na sala: 2
+  Valor total da sala: 110
+_______________________________________________________________
+
+Sala 44 (Capacidade: 23):
+  - Aluno 712 (Valor: 55, Ref: 44)
+  - Aluno 713 (Valor: 55, Ref: 44)
+  - Aluno 722 (Valor: 69, Ref: 44)
+  - Aluno 729 (Valor: 66, Ref: 44)
+  - Aluno 731 (Valor: 69, Ref: 44)
+  - Aluno 734 (Valor: 69, Ref: 44)
+  - Aluno 738 (Valor: 69, Ref: 44)
+  - Aluno 740 (Valor: 69, Ref: 44)
+  - Aluno 743 (Valor: 58, Ref: 44)
+  - Aluno 744 (Valor: 69, Ref: 44)
+  - Aluno 745 (Valor: 73, Ref: 44)
+  - Aluno 747 (Valor: 97, Ref: 44)
+  - Aluno 754 (Valor: 69, Ref: 44)
+  - Aluno 763 (Valor: 58, Ref: 44)
+  - Aluno 764 (Valor: 58, Ref: 44)
+  - Aluno 765 (Valor: 67, Ref: 44)
+  - Aluno 769 (Valor: 69, Ref: 44)
+  - Aluno 771 (Valor: 55, Ref: 44)
+  - Aluno 772 (Valor: 55, Ref: 44)
+  - Aluno 773 (Valor: 55, Ref: 44)
+  - Aluno 774 (Valor: 55, Ref: 44)
+  - Aluno 775 (Valor: 83, Ref: 44)
+  - Aluno 781 (Valor: 55, Ref: 44)
+  Total de alunos na sala: 23
+  Valor total da sala: 1497
+_______________________________________________________________
+
+Sala 45 (Capacidade: 1):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 46 (Capacidade: 4):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 47 (Capacidade: 6):
+  - Aluno 782 (Valor: 9, Ref: 47)
+  - Aluno 783 (Valor: 9, Ref: 47)
+  - Aluno 789 (Valor: 9, Ref: 47)
+  - Aluno 790 (Valor: 83, Ref: 47)
+  - Aluno 791 (Valor: 83, Ref: 47)
+  - Aluno 792 (Valor: 69, Ref: 47)
+  Total de alunos na sala: 6
+  Valor total da sala: 262
+_______________________________________________________________
+
+Sala 48 (Capacidade: 15):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 49 (Capacidade: 9):
+  - Aluno 797 (Valor: 55, Ref: 49)
+  - Aluno 798 (Valor: 83, Ref: 49)
+  - Aluno 801 (Valor: 82, Ref: 49)
+  - Aluno 803 (Valor: 83, Ref: 49)
+  - Aluno 804 (Valor: 83, Ref: 49)
+  - Aluno 809 (Valor: 55, Ref: 49)
+  - Aluno 811 (Valor: 69, Ref: 49)
+  - Aluno 812 (Valor: 83, Ref: 49)
+  - Aluno 814 (Valor: 69, Ref: 49)
+  Total de alunos na sala: 9
+  Valor total da sala: 662
+_______________________________________________________________
+
+Sala 50 (Capacidade: 16):
+  - Aluno 822 (Valor: 55, Ref: 50)
+  - Aluno 823 (Valor: 55, Ref: 50)
+  - Aluno 824 (Valor: 55, Ref: 50)
+  - Aluno 825 (Valor: 55, Ref: 50)
+  - Aluno 826 (Valor: 55, Ref: 50)
+  - Aluno 828 (Valor: 55, Ref: 50)
+  - Aluno 830 (Valor: 55, Ref: 50)
+  - Aluno 831 (Valor: 55, Ref: 50)
+  - Aluno 839 (Valor: 69, Ref: 50)
+  - Aluno 842 (Valor: 83, Ref: 50)
+  - Aluno 843 (Valor: 55, Ref: 50)
+  - Aluno 844 (Valor: 55, Ref: 50)
+  - Aluno 845 (Valor: 55, Ref: 50)
+  - Aluno 846 (Valor: 55, Ref: 50)
+  - Aluno 847 (Valor: 55, Ref: 50)
+  - Aluno 848 (Valor: 55, Ref: 50)
+  Total de alunos na sala: 16
+  Valor total da sala: 922
+_______________________________________________________________
+
+Sala 51 (Capacidade: 18):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 52 (Capacidade: 6):
+  - Aluno 852 (Valor: 83, Ref: 52)
+  - Aluno 854 (Valor: 83, Ref: 52)
+  - Aluno 863 (Valor: 83, Ref: 52)
+  - Aluno 879 (Valor: 69, Ref: 52)
+  - Aluno 882 (Valor: 83, Ref: 52)
+  - Aluno 892 (Valor: 83, Ref: 52)
+  Total de alunos na sala: 6
+  Valor total da sala: 484
+_______________________________________________________________
+
+Sala 53 (Capacidade: 1):
+  - Aluno 938 (Valor: 97, Ref: 53)
+  Total de alunos na sala: 1
+  Valor total da sala: 97
+_______________________________________________________________
+
+Sala 54 (Capacidade: 7):
+  - Aluno 998 (Valor: 69, Ref: 54)
+  - Aluno 999 (Valor: 55, Ref: 54)
+  - Aluno 1000 (Valor: 69, Ref: 54)
+  - Aluno 1001 (Valor: 69, Ref: 54)
+  Total de alunos na sala: 4
+  Valor total da sala: 262
+_______________________________________________________________
+
+Sala 55 (Capacidade: 1):
+  - Aluno 1017 (Valor: 96, Ref: 55)
+  Total de alunos na sala: 1
+  Valor total da sala: 96
+_______________________________________________________________
+
+Sala 56 (Capacidade: 6):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 57 (Capacidade: 6):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 58 (Capacidade: 4):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 59 (Capacidade: 11):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 60 (Capacidade: 11):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 61 (Capacidade: 4):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 62 (Capacidade: 15):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 63 (Capacidade: 3):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 64 (Capacidade: 19):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 65 (Capacidade: 15):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 66 (Capacidade: 2):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 67 (Capacidade: 5):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 68 (Capacidade: 5):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Sala 69 (Capacidade: 3):
+  - Aluno 1063 (Valor: 83, Ref: 69)
+  - Aluno 1070 (Valor: 69, Ref: 69)
+  - Aluno 1081 (Valor: 83, Ref: 69)
+  Total de alunos na sala: 3
+  Valor total da sala: 235
+_______________________________________________________________
+
+Sala 70 (Capacidade: 3):
+  - Aluno 1093 (Valor: 83, Ref: 70)
+  - Aluno 1119 (Valor: 83, Ref: 70)
+  - Aluno 1126 (Valor: 69, Ref: 70)
+  Total de alunos na sala: 3
+  Valor total da sala: 235
+_______________________________________________________________
+
+Sala 71 (Capacidade: 19):
+  Total de alunos na sala: 0
+  Valor total da sala: 0
+_______________________________________________________________
+
+Resumo Final:
+  - Total de alunos alocados: 183
+  - Total de alunos não alocados: 944
